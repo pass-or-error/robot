@@ -33,7 +33,7 @@ form.onsubmit = async function (e) {
 
   if (resp.code === 0) {
     alert('登录成功,点击确认进入主页面')
-    location.href = '../html/index.html'
+    location.href = './index.html'
 
   }
   else {

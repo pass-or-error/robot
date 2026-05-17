@@ -160,7 +160,7 @@
   const user = resp.data
   if (resp.code !== 0) {
     alert('请登录')
-    location.href = '../html/login.html'
+    location.href = './login.html'
   }
 
 
@@ -177,7 +177,7 @@
   // 2. 退出登录
   doms.close.onclick = async function () {
     await API.loginOut()
-    location.href = '../html/login.html'
+    location.href = './html/login.html'
   }
 
 
