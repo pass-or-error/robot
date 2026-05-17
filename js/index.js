@@ -72,7 +72,7 @@
 
 //     const img = $$$('img')
 //     img.className = 'chat-avatar'
-//     img.src = chatInfo.from ? 'assetet/avatar.png' : 'assetet/robot-avatar.jpg'
+//     img.src = chatInfo.from ? 'asset/avatar.png' : 'asset/robot-avatar.jpg'
 
 //     const content = $$$('div')
 //     content.className = 'chat-content'
@@ -199,7 +199,7 @@
 
     const img = $$$('img')
     img.className = 'chat-avatar'
-    img.src = chatInfo.from ? 'assetet/avatar.png' : 'assetet/robot-avatar.jpg'
+    img.src = chatInfo.from ? 'asset/avatar.png' : 'asset/robot-avatar.jpg'
 
     const content = $$$('div')
     content.className = 'chat-content'
