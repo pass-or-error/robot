@@ -1,0 +1,8 @@
+post https://study.duyiedu.com/api/user/login
+Content-Type: application/json
+
+{
+  "loginId":"jonny3",
+  "nickname": "111",
+  "loginPwd":"jonny"
+}
